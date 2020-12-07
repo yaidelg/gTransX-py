@@ -29,9 +29,9 @@ provider:
 functions:
   translate:
     handler: handlers/translate.handler
-    description: "<DESCRIPTION>"
+    description: ""
     memorySize: 128
-    timeout: 28
+    timeout: 60
     events:
       - http:
           path: /translate
